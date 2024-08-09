@@ -23,8 +23,8 @@ function App() {
             <Route path="/design" element={<DesignTool />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
-            <Route path="/admin/orders" element={<OrderManagement />} />
-            <Route path="/admin/delivery" element={<DeliveryManagement />} />
+            {/* <Route path="/admin/orders" element={<OrderManagement />} />
+            <Route path="/admin/delivery" element={<DeliveryManagement />} /> */}
             <Route path="/profile" element={<Profile />} />
             <Route path="/my-orders" element={<MyOrders />} />
           </Routes>
