@@ -1,4 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import CustomModal from './CustomModal';
+import GeneratePage from './GeneratePage';
+import { Link } from 'react-router-dom';
 
 function DesignTool() {
   const [productType, setProductType] = useState('tshirt');
@@ -12,6 +15,7 @@ function DesignTool() {
   const [visibleLayer, setVisibleLayer] = useState('layer2'); // State to track the visible layer
   const productRef = useRef(null);
   const [dropBoxSize, setDropBoxSize] = useState({ width: 0, height: 0 });
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control modal visibility
 
   const handleProductChange = (type) => {
     setProductType(type);
@@ -56,7 +60,13 @@ function DesignTool() {
   const handleMouseUp = () => {
     setIsDragging(false);
   };
+  const handleOpenModal = () => {
+    setIsModalOpen(true); // Open the modal
+  };
 
+  const handleCloseModal = () => {
+    setIsModalOpen(false); // Close the modal
+  };
   useEffect(() => {
     if (productRef.current) {
       const { width, height } = productRef.current.getBoundingClientRect();
@@ -107,11 +117,14 @@ function DesignTool() {
             Mobile Case
           </button>
           <button
-            className={`block w-full p-2 rounded mb-2 ${productType === 'skirt' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-            onClick={() => handleProductChange('skirt')}
-          >
-            Sublime Print Overalls
-          </button>
+                className={`block w-full p-2 rounded mb-2 ${productType === 'skirt' ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                onClick={() => {
+                    handleProductChange('skirt');
+                    handleOpenModal(); // Open modal on Sublime Print Overalls button click
+                }}
+            >
+                Sublime Print Overalls
+            </button>
           <h2 className="text-xl font-bold mb-4 mt-4">Tools</h2>
           <input
             type="text"
@@ -120,7 +133,7 @@ function DesignTool() {
             onChange={(e) => setText(e.target.value)}
             className="block w-full p-2 rounded mb-2"
           />
-          <button className="block w-full bg-blue-500 text-white p-2 rounded mb-2">Art Gallery</button>
+          <Link to="/browse" className="block w-full bg-blue-500 text-white p-2 rounded mb-2">Art Gallery</Link>
           <button className="block w-full bg-green-500 text-white p-2 rounded mb-2">Generate Design</button>
           <button className="block w-full bg-purple-500 text-white p-2 rounded mb-2">Add Text</button>
           <div className="mt-4">
@@ -229,9 +242,11 @@ function DesignTool() {
           </ul>
           <button className="block w-full bg-blue-500 text-white p-2 rounded mb-2">Save Design</button>
           <button className="block w-full bg-green-500 text-white p-2 rounded">Add to Cart</button>
-          <button className="block w-full bg-yellow-500 text-white p-2 rounded mt-2">Export Design</button>
         </div>
       </div>
+        <CustomModal isOpen={isModalOpen} onRequestClose={handleCloseModal}>
+            <GeneratePage />
+        </CustomModal>
     </div>
   );
 }

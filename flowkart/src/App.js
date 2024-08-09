@@ -11,6 +11,8 @@ import DeliveryManagement from './screens/DeliveryManagement';
 import Profile from './screens/Profile';
 import MyOrders from './screens/MyOrders';
 import Home from './screens/Home';
+import GeneratePage from './screens/GeneratePage';
+
 function App() {
   return (
     <Router>
@@ -27,6 +29,8 @@ function App() {
             <Route path="/admin/delivery" element={<DeliveryManagement />} /> */}
             <Route path="/profile" element={<Profile />} />
             <Route path="/my-orders" element={<MyOrders />} />
+            <Route path="/browse" element={<MyOrders />} />
+            <Route path="/my-designs" element={<MyOrders />} />
           </Routes>
         </main>
         <Footer />
