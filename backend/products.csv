@@ -1,0 +1,41 @@
+id,name,description,price,quantity,type,image
+1,Papermate Ballpoint Pen,Blue ink ballpoint pen with a smooth writing experience,$2.99,,Pen,/images/img1.png
+2,BIC Mechanical Pencils,0.7mm mechanical pencils with extra erasers,$4.99,,Pencil,/images/img2.png
+3,Sharpie Permanent Marker,Black fine point permanent marker,$1.99,,Marker,/images/img3.png
+4,Crayola Colored Pencils,24 pack of assorted colored pencils,$6.99,24 pack,Pencil,/images/img4.png
+5,Elmer's Glue,White school glue,$1.49,4 oz bottle,Glue,/images/img5.png
+6,Post-it Notes,3x3 inch sticky notes,$5.49,5-pack,Sticky Note,/images/img6.png
+7,Fiskars Scissors,8-inch general purpose scissors,$3.99,8-inch,Scissors,/images/img7.png
+8,Pilot G2 Gel Pen,Black ink gel pen,$2.49, 0.7mm,Pen,/images/img8.png
+9,Staples Standard Staples,5000 count box of standard size staples,$2.79,5000 count,Staples,/images/img9.png
+10,Avery Binder,1-inch durable binder with pockets,$4.29,1-inch,Binder,/images/img10.png
+11,Texas Instruments TI-30X Calculator,Scientific calculator for basic math and science,$14.99,,Calculator,/images/img11.png
+12,Five Star Notebook,1-subject wide-ruled notebook,$2.89,100 sheets,Notebook,/images/img12.png
+13,Expo Dry Erase Markers,4-pack of assorted color low odor dry erase markers,$6.49,4-pack,Marker,/images/img13.png
+14,Mead Spiral Notebook,3-subject college-ruled notebook,$3.99,150 sheets,Notebook,/images/img14.png
+15,Ticonderoga Pencils,12-pack of pre-sharpened #2 pencils,$3.49,12-pack,Pencil,/images/img15.png
+16,Scotch Magic Tape,Single roll of invisible tape,$2.69,3/4 inch x 800 inches,Tape,/images/img16.png
+17,Paper Mate Erasers,3-pack of pink pearl erasers,$1.29,3-pack,Eraser,/images/img17.png
+18,Crayola Washable Markers,10-pack of broad line washable markers,$4.99,10-pack,Marker,/images/img18.png
+19,Duck Brand Duct Tape,Silver duct tape,$3.99,1.88 inches x 20 yards,Tape,/images/img19.png
+20,Office Depot Paper Clips,100-count box of standard paper clips,$0.99,100-count,Clip,/images/img20.png
+21,Apple iPhone 14,Latest model smartphone with advanced features,$999.99,,Smartphone,/images/img21.png
+22,LG 55\" 4K UHD TV,55-inch 4K Ultra HD smart television,$499.99,,Television,/images/img22.png
+23,Instant Pot Duo 7-in-1,Electric pressure cooker with multiple functions,$89.99,,Appliance,/images/img23.png
+24,Nike Air Max 270,Men's running shoes with cushioning and style,$149.99,,Shoe,/images/img24.png
+25,Keurig K-Mini Coffee Maker,Compact single-serve coffee maker,$69.99,,Appliance,/images/img25.png
+26,GoPro HERO10,Action camera with high-resolution recording,$349.99,,Camera,/images/img26.png
+27,Fitbit Charge 5,Advanced fitness and health tracker,$129.99,,Fitness Tracker,/images/img27.png
+28,KitchenAid Artisan Toaster,4-slice toaster with multiple settings,$129.99,,Appliance,/images/img28.png
+29,Sony WH-1000XM4,Wireless noise-cancelling headphones,$349.99,,Headphones,/images/img29.png
+30,Amazon Echo Dot,Smart speaker with Alexa voice control,$49.99,,Smart Speaker,/images/img30.png
+31,Levi's 501 Original Jeans,Classic fit jeans with button fly,$59.99,,Clothing,/images/img31.png
+32,HP OfficeJet Pro 9015,All-in-one color printer with wireless capabilities,$229.99,,Printer,/images/img32.png
+33,Samsonite Winfield 3,Hard-side luggage set,$159.99,3-piece set,Luggage,/images/img33.png
+34,Oral-B Pro 1000 Electric Toothbrush,Rechargeable electric toothbrush with timer,$49.99,,Toothbrush,/images/img34.png
+35,Canon EOS Rebel T7,Entry-level DSLR camera with 18-55mm lens,$449.99,,Camera,/images/img35.png
+36,Shark Navigator Lift-Away,Vacuum cleaner with detachable canister,$199.99,,Vacuum,/images/img36.png
+37,KitchenAid Artisan Toaster,4-slice toaster with multiple settings,$129.99,,Appliance,/images/img37.png
+38,Colgate Total Whitening Toothpaste,6 oz tube of whitening toothpaste,$3.99,6 oz tube,Toothpaste,/images/img38.png
+39,Dr. Scholl's Comfort Insoles,2-pack of insoles for added comfort,$14.99,2-pack,Insoles,/images/img39.png
+40,Chobani Greek Yogurt,32 oz container of plain Greek yogurt,$5.99,32 oz container,Yogurt,/images/img40.png
