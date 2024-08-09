@@ -122,7 +122,7 @@ const GeneratePage = () => {
                 <br /><br />
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ width: '10rem', height: 'auto', borderRadius: '50%', overflow: 'hidden', margin: '0 1rem', border: '2px solid black' }}>
-                        <img src="/images/img1.jpg" alt="Art" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src="/images/img1.png" alt="Art" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                     <div style={{ width: '10rem', height: 'auto', borderRadius: '50%', overflow: 'hidden', margin: '0 1rem', border: '2px solid black' }}>
                         <img src="/images/img1.jpg" alt="Art" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />

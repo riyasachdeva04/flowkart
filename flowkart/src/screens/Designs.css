@@ -1,0 +1,46 @@
+.designs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* max-height: 5000px; Set the maximum height for the card */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px; 
+    max-width: 300px;
+    object-fit: cover; /* Cover the card area while maintaining aspect ratio */
+  }
+  
+  .card-content {
+    padding: 4px; /* Reduced padding to fit within the card height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .card-title {
+    font-size: 0.8rem; /* Adjust font size to fit within the card */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-price {
+    font-size: 0.7rem; /* Adjust font size to fit within the card */
+    color: #888;
+    margin: 0;
+  }
+  

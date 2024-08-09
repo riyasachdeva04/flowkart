@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function DesignTool() {
   const [productType, setProductType] = useState('tshirt');
-  const [zoomLevel, setZoomLevel] = useState(1);
+  const [zoomLevel, setZoomLevel] = useState(0.7);
   const [droppedImage, setDroppedImage] = useState(null);
   const [text, setText] = useState(''); // State for input text
   const [textPosition, setTextPosition] = useState({ x: 100, y: 100 }); // Initial text position
@@ -71,8 +71,8 @@ function DesignTool() {
     if (productRef.current) {
       const { width, height } = productRef.current.getBoundingClientRect();
       setDropBoxSize({
-        width: width / 5,
-        height: height / 5,
+        width: width / 4,
+        height: height / 4,
       });
     }
   }, [zoomLevel, productType]);
